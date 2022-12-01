@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidCustomLayout</string>
+
+    <string name="func_01">Function 01</string>
+    <string name="func_02">Function 02</string>
+    <string name="func_03">Function 03</string>
+    <string name="func_04">Function 04</string>
+    <string name="func_05">Function 05</string>
+
 </resources>

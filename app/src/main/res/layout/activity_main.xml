@@ -11,16 +11,57 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="20dp"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <com.example.androidcustomlayout.view.IconButton
+            android:id="@+id/function_01"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:backgroundColor="@color/icon_button_01"
+            app:imgSrc="@drawable/ic_01"
+            app:textString="@string/func_01"
+            android:onClick="onClick"/>
+
+        <com.example.androidcustomlayout.view.IconButton
+            android:id="@+id/function_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:backgroundColor="@color/icon_button_02"
+            app:imgSrc="@drawable/ic_02"
+            app:textString="@string/func_02"
+            android:onClick="onClick"/>
+
+        <com.example.androidcustomlayout.view.IconButton
+            android:id="@+id/function_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:backgroundColor="@color/icon_button_03"
+            app:imgSrc="@drawable/ic_03"
+            app:textString="@string/func_03"
+            android:onClick="onClick"/>
+
+        <com.example.androidcustomlayout.view.IconButton
+            android:id="@+id/function_04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:backgroundColor="@color/icon_button_04"
+            app:imgSrc="@drawable/ic_04"
+            app:textString="@string/func_04"
+            android:onClick="onClick"/>
+
+        <com.example.androidcustomlayout.view.IconButton
+            android:id="@+id/function_05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:backgroundColor="@color/icon_button_05"
+            app:imgSrc="@drawable/ic_05"
+            app:textString="@string/func_05"
+            android:onClick="onClick"/>
 
     </LinearLayout>
 
